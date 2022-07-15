@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 import { createGlobalStyle } from "styled-components";
@@ -18,6 +19,8 @@ class App extends Component {
       <div>
         <GlobalStyle />
         <Header />
+        <Main />
+        <Footer />
       </div>
     );
   }
